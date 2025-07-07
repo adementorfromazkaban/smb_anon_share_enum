@@ -1,3 +1,4 @@
+
 # smb_anon_share_enum
 
 A lightweight Bash script to brute-force SMB share names from a wordlist and test each for **anonymous (guest)** access using `smbclient`.
@@ -21,35 +22,36 @@ This tool is useful during internal network pentests, CTFs, and enumeration phas
 
 **Debian/Ubuntu/Kali:**
 
-```
+```bash
 sudo apt update
 sudo apt install smbclient
 ```
 
 **RedHat/CentOS/Fedora:**
 
-```
+```bash
 sudo dnf install samba-client
 ```
 
 **Arch Linux:**
 
-```
+```bash
 sudo pacman -S smbclient
 ```
 
 ### 2. Clone the Repository
 
-```
-bash
+```bash
 git clone https://github.com/adementorfromazkaban/smb_anon_share_enum.git
 cd smb_anon_share_enum
 chmod +x smb_anon_share_enum.sh
 ```
 
+---
+
 ## 💻 Usage
 
-```
+```bash
 ./smb_anon_share_enum.sh -t <target> -w <wordlist.txt>
 ```
 
@@ -58,13 +60,15 @@ chmod +x smb_anon_share_enum.sh
 - `-w`: Path to wordlist file (one share name per line)
 
 **Example:**
-```
+```bash
 ./smb_anon_share_enum.sh -t 192.168.1.100 -w shares.txt
 ```
 
+---
+
 ## 📥 Sample Output
 
-```
+```bash
 [*] Starting anonymous SMB share enumeration against: 192.168.1.100
 [*] Using wordlist: shares.txt
 
