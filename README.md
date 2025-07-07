@@ -17,16 +17,7 @@ This tool is useful during internal network pentests, CTFs, and enumeration phas
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
-
-```
-bash
-git clone https://github.com/adementorfromazkaban/smb_anon_share_enum.git
-cd smb_anon_share_enum
-chmod +x smb_anon_share_enum.sh
-```
-
-### 2. Install `smbclient`
+### 1. Install `smbclient` (if not already installed)
 
 **Debian/Ubuntu/Kali:**
 
@@ -45,6 +36,15 @@ sudo dnf install samba-client
 
 ```
 sudo pacman -S smbclient
+```
+
+### 2. Clone the Repository
+
+```
+bash
+git clone https://github.com/adementorfromazkaban/smb_anon_share_enum.git
+cd smb_anon_share_enum
+chmod +x smb_anon_share_enum.sh
 ```
 
 ## 💻 Usage
