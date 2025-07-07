@@ -84,8 +84,11 @@ Testing share: secure
 
 ```bash
 nano smb_anon_share_enum.sh
-# Internet is not available on the VM so copy and paste the content from:
-# https://github.com/adementorfromazkaban/smb_anon_share_enum/blob/main/smb_anon_share_enum.sh
+```
+
+Internet is not available on the VM so copy and paste the content from: https://github.com/adementorfromazkaban/smb_anon_share_enum/blob/main/smb_anon_share_enum.sh
+
+```bash
 chmod +x smb_anon_share_enum.sh
 ./smb_anon_share_enum.sh -t target.ine.local -w /root/Desktop/wordlists/shares.txt
 ```
