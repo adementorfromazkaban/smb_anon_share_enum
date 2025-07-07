@@ -58,7 +58,9 @@ sudo pacman -S smbclient
 - `-w`: Path to wordlist file (one share name per line)
 
 **Example:**
+```
 ./smb_anon_share_enum.sh -t 192.168.1.100 -w shares.txt
+```
 
 ## 📥 Sample Output
 
