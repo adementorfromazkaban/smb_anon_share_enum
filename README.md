@@ -19,10 +19,12 @@ This tool is useful during internal network pentests, CTFs, and enumeration phas
 
 ### 1. Clone the Repository
 
-```bash
+```
+bash
 git clone https://github.com/adementorfromazkaban/smb_anon_share_enum.git
 cd smb_anon_share_enum
 chmod +x smb_anon_share_enum.sh
+```
 
 ### 2. Install `smbclient`
 
