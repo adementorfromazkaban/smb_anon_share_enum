@@ -77,3 +77,15 @@ Testing share: public
 Testing share: secure
 [-] Access denied for: secure
 ```
+
+---
+
+## 🧪 Sample CTF Usage: Assessment Methodologies - Enumeration CTF 1
+
+```bash
+nano smb_anon_share_enum.sh
+# Internet is not available on the VM so copy and paste the content from:
+# https://github.com/adementorfromazkaban/smb_anon_share_enum/blob/main/smb_anon_share_enum.sh
+chmod +x smb_anon_share_enum.sh
+./smb_anon_share_enum.sh -t target.ine.local -w /root/Desktop/wordlists/shares.txt
+```
